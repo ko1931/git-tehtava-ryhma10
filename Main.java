@@ -2,8 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-     
+        Scanner in = new Scanner(System.in);
+        int input = 0;
 
+        System.out.println("Valitse autosi:");
+        input = in.nextInt();
+
+        if (input == 1) {
         Auto auto1 = new Auto();
 
         auto1.merkki = "Toyota";
@@ -13,7 +18,9 @@ public class Main {
         auto1.naytaTiedot();
         auto1.kiihdyta();
         auto1.naytaTiedot();
+        }
 
+        if (input == 2) {
         Auto auto2 = new Auto();
 
         auto2.merkki = "Opel";
@@ -24,7 +31,6 @@ public class Main {
         auto2.naytaTiedot();
         auto2.tankkaa(20);
         auto2.naytaTiedot();
-
-
+        }
     }
 }
