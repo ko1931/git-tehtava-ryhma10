@@ -32,5 +32,20 @@ public class Main {
         auto2.tankkaa(20);
         auto2.naytaTiedot();
         }
+
+        if (input == 3) {
+        Auto auto3 = new Auto();
+
+        auto3.merkki = "Peugeot";
+        auto3.malli = "206+";
+        auto3.bensanMaara = 50;
+
+        auto3.kiihdyta();
+        auto3.naytaTiedot();
+        auto3.tankkaa(20);
+        auto3.naytaTiedot();
+        }
+
+
     }
 }
