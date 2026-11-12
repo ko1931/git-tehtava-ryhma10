@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Auto {
         public String merkki;
     public String malli;
